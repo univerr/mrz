@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:univerr/AnaP.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://univerr@gitlab.com/univerr/imc.git
+	url = git@bitbucket.org:univerr/anap.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
